@@ -2,6 +2,7 @@ const sechand = document.querySelector("[data-second]")
 const minhand = document.querySelector("[data-minute]")
 const hourhand = document.querySelector("[data-hour]")
 function setClock(){
+    
     console.log("uh huh")
     const currentDate = new Date()
     let seconds = currentDate.getSeconds() / 60
